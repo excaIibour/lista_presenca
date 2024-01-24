@@ -24,6 +24,7 @@ class HomeState extends State<Home> {
 
         return Scaffold(
           appBar: AppBar(
+            toolbarHeight: 160,
             title: const Text('Lista de presença', style: TextStyle(fontSize: 20)),
             centerTitle: true,
           ),

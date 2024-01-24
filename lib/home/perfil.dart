@@ -10,6 +10,7 @@ class Perfil extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+         toolbarHeight: 160,
         title: const Text('Meu perfil'),
         centerTitle: true,
       ),
